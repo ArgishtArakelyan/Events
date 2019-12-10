@@ -1,0 +1,121 @@
+.my_tickets-page-wrap .my_tickets_wl_wrap {
+  padding: 220px 0 320px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative; }
+  .my_tickets-page-wrap .my_tickets_wl_wrap .overlay {
+    background-color: transparent;
+    background-image: linear-gradient(200deg, #b39d46 50%, #352245 0%);
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s; }
+  .my_tickets-page-wrap .my_tickets_wl_wrap h1 {
+    margin-bottom: 8px;
+    color: #fff;
+    font-size: 78px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-shadow: 4px 3px 0px #ffde59;
+    text-align: right; }
+  .my_tickets-page-wrap .my_tickets_wl_wrap p {
+    text-align: right;
+    color: #352245;
+    font-weight: 600; }
+  .my_tickets-page-wrap .my_tickets_wl_wrap .inner-wrap {
+    z-index: 1; }
+.my_tickets-page-wrap .my_account_wrap {
+  background-color: #efefef;
+  padding: 124px 0 120px;
+  text-transform: uppercase;
+  text-align: center; }
+  .my_tickets-page-wrap .my_account_wrap .inner-wrap > h1 {
+    margin-bottom: 24px; }
+  .my_tickets-page-wrap .my_account_wrap .inner-wrap p {
+    font-weight: 700; }
+  .my_tickets-page-wrap .my_account_wrap .inner-wrap .item-wrap {
+    display: flex;
+    margin-top: 72px; }
+    .my_tickets-page-wrap .my_account_wrap .inner-wrap .item-wrap .item {
+      flex: 1;
+      padding: 32px 0 64px;
+      background-color: #fff;
+      box-shadow: 0 0 16px 2px #c5c5c5; }
+      .my_tickets-page-wrap .my_account_wrap .inner-wrap .item-wrap .item:nth-child(2) {
+        margin: -8px 0;
+        position: relative;
+        z-index: 1; }
+      .my_tickets-page-wrap .my_account_wrap .inner-wrap .item-wrap .item h1 {
+        color: #8d188a;
+        font-size: 26px; }
+      .my_tickets-page-wrap .my_account_wrap .inner-wrap .item-wrap .item img {
+        width: 80px; }
+.my_tickets-page-wrap .form_wrap {
+  padding: 124px 0; }
+  .my_tickets-page-wrap .form_wrap .inner-wrap {
+    display: flex; }
+    .my_tickets-page-wrap .form_wrap .inner-wrap > div {
+      flex: 1; }
+      .my_tickets-page-wrap .form_wrap .inner-wrap > div:last-child {
+        margin-left: 56px; }
+      .my_tickets-page-wrap .form_wrap .inner-wrap > div .input_r {
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+        padding: 56px 20px 32px; }
+        .my_tickets-page-wrap .form_wrap .inner-wrap > div .input_r.login__form .input-wrap:last-child {
+          margin-bottom: 24px; }
+        .my_tickets-page-wrap .form_wrap .inner-wrap > div .input_r.login__form > label {
+          color: #7a7a7a;
+          margin-left: 12px;
+          font-weight: 400;
+          cursor: pointer; }
+        .my_tickets-page-wrap .form_wrap .inner-wrap > div .input_r.login__form .lost_password {
+          margin-top: 8px;
+          margin-bottom: 16px; }
+      .my_tickets-page-wrap .form_wrap .inner-wrap > div h1 {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 20px;
+        text-align: center; }
+      .my_tickets-page-wrap .form_wrap .inner-wrap > div p {
+        color: #7a7a7a;
+        font-weight: 400;
+        margin-bottom: 24px; }
+        .my_tickets-page-wrap .form_wrap .inner-wrap > div p a {
+          color: #1e73be; }
+      .my_tickets-page-wrap .form_wrap .inner-wrap > div .btn {
+        padding: .618em 1em;
+        font-weight: 700;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        border-radius: 3px;
+        color: #515151;
+        border: 0;
+        background-color: #ebe9eb; }
+        .my_tickets-page-wrap .form_wrap .inner-wrap > div .btn:hover {
+          background-color: #dfdcde; }
+      .my_tickets-page-wrap .form_wrap .inner-wrap > div .input-wrap {
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        -ms-border-radius: 0px;
+        border-radius: 0px;
+        margin-bottom: 40px;
+        background: #fafafa;
+        border: 1px solid #ccc; }
+        .my_tickets-page-wrap .form_wrap .inner-wrap > div .input-wrap:last-child {
+          margin: 0; }
+        .my_tickets-page-wrap .form_wrap .inner-wrap > div .input-wrap input {
+          padding: 10px 15px;
+          color: #666;
+          font-size: 20px; }
+        .my_tickets-page-wrap .form_wrap .inner-wrap > div .input-wrap label {
+          color: #7a7a7a;
+          font-size: 16px;
+          top: -28px; }
+
+/*# sourceMappingURL=my_tickets.css.map */

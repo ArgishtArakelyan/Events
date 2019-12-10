@@ -1,0 +1,294 @@
+@import "mixins";
+@import "settings";
+
+@media screen and (max-width: 1024px) {
+    .navigation-wrap .menu li a {
+        padding: 10px 12px;
+    }
+
+
+    .events_wrap .item-wrap .item{
+        @include calc-width("50%", "-", "23px");
+    }
+    .events_wrap .item-wrap .item:nth-child(3n + 3) {
+        margin-right: 45px !important;
+    }
+
+    .events_wrap .item-wrap .item:nth-child(2n + 2) {
+        margin-right: 0 !important;
+    }
+
+
+    .organizer-page-wrap section.main_slider .slider {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .organizer-page-wrap section.main_slider .button-wrap .btn {
+        display: block;
+        margin: auto;
+    }
+
+    .organizer-page-wrap section.main_slider .button-wrap .btn:last-child {
+        margin-top: 32px;
+    }
+
+    .organizer-page-wrap section.main_slider {
+        padding: 120px 0;
+    }
+
+    .organizer-page-wrap section.main_slider p {
+        max-width: 100%;
+    }
+
+    .organizer-page-wrap section.main_slider .owl-dots {
+        position: static;
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);
+        margin-top: 16px;
+    }
+
+    .organizer-page-wrap section.main_slider .right-img{
+        display: none;
+    }
+}
+
+//media
+
+@media screen and (max-width: 992px) {
+    .navigation-wrap .menu-wrap {
+        display: block;
+        width: -webkit-calc(100% + 32px);
+        width: -moz-calc(100% + 32px);
+        width: calc(100% + 32px);
+        padding: 24px;
+        top: 100%;
+        left: calc(-100% - 48px);
+        visibility: hidden;
+        opacity: 0;
+        height: auto;
+        background: #fff;
+        box-shadow: 0px 10px 16px -16px #352245;
+        z-index: 1;
+    }
+
+    .navigation-wrap .menu-wrap.open {
+        left: -16px;
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .navigation-wrap .menu-wrap .menu {
+        display: block;
+    }
+
+    .navigation-wrap .menu-wrap .menu li a {
+        display: block;
+        padding: 8px 0;
+    }
+
+    .navigation-wrap .menu-wrap .btn {
+        display: inline-block;
+        position: static;
+        margin-top: 24px;
+    }
+
+    .navigation-wrap .m-lines {
+        display: flex;
+    }
+
+    .organizer-page-wrap section.services_block .inner-wrap .item-wrap {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .organizer-page-wrap section.services_block .inner-wrap .item-wrap .item {
+        float: left;
+        width: 50%;
+        margin: 0;
+        padding: 0 32px 40px;
+    }
+
+    .organizer-page-wrap section.help_wrap .inner-wrap {
+        text-align: center;
+    }
+
+    .organizer-page-wrap section.price_list .inner-wrap .item-wrap .item p {
+        padding: 0 40px;
+    }
+
+    .organizer-page-wrap section.price_list .inner-wrap .item-wrap .item h2 {
+        font-size: 20px;
+        margin-bottom: 24px;
+    }
+
+    .organizer-page-wrap section.price_list .inner-wrap .item-wrap .item h1 {
+        font-size: 32px;
+        margin-bottom: 32px;
+    }
+
+    .organizer-page-wrap section.price_list .inner-wrap .item-wrap .item span {
+        margin-bottom: 24px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    .organizer-page-wrap section.services_block .inner-wrap>p,
+    .organizer-page-wrap section.paid_events .inner-wrap>p {
+        font-size: 20px;
+    }
+
+    .my_tickets-page-wrap .my_account_wrap .inner-wrap .item-wrap .item,
+    .my_tickets-page-wrap .my_account_wrap .inner-wrap .item-wrap .item:nth-child(2){
+        width: 100%;
+        max-width: 420px;
+        float: none;
+        margin: 40px auto 0 !important;
+    }
+
+    .my_tickets-page-wrap .form_wrap .inner-wrap{display: block;}
+
+    .my_tickets-page-wrap .form_wrap .inner-wrap > div,
+    .my_tickets-page-wrap .form_wrap .inner-wrap > div:last-child{
+        margin: 40px auto 0;
+        width: 100%;
+        max-width: 420px;
+    }
+
+    .my_tickets-page-wrap .form_wrap{
+        padding: 32px 0;
+    }
+
+    footer .inner-wrap .item-wrap,
+    .my_tickets-page-wrap .my_account_wrap .inner-wrap .item-wrap {
+        display: block;
+        text-align: center;
+    }
+
+    footer .inner-wrap .item-wrap .item h1:after {
+        margin: 12px auto 0;
+    }
+
+    footer .inner-wrap .item-wrap .item h1 {
+        margin-bottom: 32px;
+    }
+
+    footer .inner-wrap .item-wrap .item {
+        margin-bottom: 48px;
+    }
+
+    footer .inner-wrap .item-wrap .item:last-child {
+        margin: 0;
+    }
+
+}
+
+//media
+
+@media screen and (max-width: 768px) {
+    .organizer-page-wrap section.request .inner-wrap .input_r .item>span {
+        display: none;
+    }
+
+    .faq_wrap .col-25 ,.faq_wrap .col-75{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .my_tickets-page-wrap .form_wrap .inner-wrap > div .input-wrap label {
+        font-size: 12px;
+        top: inherit;
+        bottom: 100%;
+    }
+
+    .about-page-wrap .about_wrap,
+    .my_tickets-page-wrap .my_tickets_wl_wrap{
+        padding: 160px 0 160px;
+    }
+
+    .about-page-wrap .about_wrap h1,
+    .my_tickets-page-wrap .my_tickets_wl_wrap h1{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .my_tickets-page-wrap .my_tickets_wl_wrap p{
+        text-align: center;
+    }
+
+    
+
+    .organizer-page-wrap section.request .inner-wrap .input_r .item .input-wrap label {
+        display: block;
+        font-size: 14px;
+    }
+
+    .organizer-page-wrap section.price_list .inner-wrap .item-wrap {
+        display: block;
+    }
+
+    .organizer-page-wrap section.price_list .inner-wrap .item-wrap .item h2 {
+        font-size: 28px;
+    }
+
+    .organizer-page-wrap section.price_list .inner-wrap .item-wrap .item .btn {
+        margin-top: 24px;
+        position: static;
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);
+    }
+
+    .organizer-page-wrap section.paid_events .inner-wrap .text ul li {
+        margin-right: 32px;
+    }
+
+    .organizer-page-wrap section.help_wrap .inner-wrap>div .button-wrap {
+        margin-top: 56px;
+    }
+
+    .organizer-page-wrap section.help_wrap .inner-wrap>div .button-wrap .btn {
+        display: block;
+        margin: auto;
+    }
+
+    .organizer-page-wrap section.help_wrap .inner-wrap>div .button-wrap .btn:last-child {
+        margin-top: 32px;
+    }
+
+    .organizer-page-wrap section.price_list .inner-wrap .item-wrap .item,
+    .organizer-page-wrap section.price_list .inner-wrap .item-wrap .item:nth-child(2){
+        max-width: 320px;
+        width: 100%;
+        margin: 0 auto 48px auto;
+        padding: 32px 0 40px;
+    }
+
+
+    .events_wrap .item-wrap .item,
+    .events_wrap .item-wrap .item:nth-child(2n + 2),
+    .events_wrap .item-wrap .item:nth-child(3n + 3){
+        width: 100%;
+        max-width: 340px;
+        float: none;
+        margin: 40px auto 0!important;
+    }
+
+}
+
+//media
+
+
+@media screen and (max-width: 600px) {
+    .organizer-page-wrap section.services_block .inner-wrap .item-wrap .item {
+        float: none;
+        width: 100%;
+        padding: 0 32px 40px;
+    }
+
+    .organizer-page-wrap section.services_block .inner-wrap .item-wrap .item h2 {
+        margin: 16px 0;
+    }
+}

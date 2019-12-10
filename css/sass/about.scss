@@ -1,0 +1,47 @@
+@import "mixins";
+@import "settings";
+
+$defaultTextColor: #333;
+$yellowColor: #ffde59;
+
+
+.about-page-wrap{
+
+    position: relative;
+	.about_wrap{
+		padding: 220px 0 320px;
+		background-attachment: fixed;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		*{color: #fff;}
+		.overlay {
+		    background-color: transparent;
+		    background-image: linear-gradient(200deg, #ffde59 50%, #352245 0%);
+		    opacity: 0.26;
+		    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+		}
+		.inner-wrap{z-index: 1;}
+		h1{
+		    color: #fff;
+		    font-size: 78px;
+		    font-weight: 700;
+		    letter-spacing: 2px;
+		    text-shadow: 4px 3px 0px #ffde59;
+		    text-transform: uppercase;
+		    text-align: right;
+
+ 		}
+
+ 		p{
+ 			font-size: 18px;
+ 			font-weight: 600;
+ 			line-height: 32px;
+ 			margin-bottom: 32px;
+
+ 			&:last-child{
+ 				margin: 0;
+ 			}
+ 		}
+	}
+}

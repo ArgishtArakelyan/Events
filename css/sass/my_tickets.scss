@@ -1,0 +1,177 @@
+@import "mixins";
+@import "settings";
+
+$defaultTextColor: #333;
+$yellowColor: #ffde59;
+
+.my_tickets-page-wrap {
+    .my_tickets_wl_wrap {
+        padding: 220px 0 320px;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+
+        .overlay {
+            background-color: transparent;
+            background-image: linear-gradient(200deg, #b39d46 50%, #352245 0%);
+            opacity: 0.5;
+            transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+        }
+
+        h1 {
+        	margin-bottom: 8px;
+            color: #fff;
+            font-size: 78px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            text-shadow: 4px 3px 0px #ffde59;
+            text-align: right;
+        }
+
+        p {
+            text-align: right;
+            color: #352245;
+            font-weight: 600;
+        }
+        .inner-wrap {
+	        z-index: 1;
+	    }
+    }
+
+
+
+	.my_account_wrap{
+		 background-color: #efefef;
+		 padding: 124px 0 120px;
+		 text-transform: uppercase;
+		 text-align: center;
+
+		 .inner-wrap{
+		 	>h1{
+				margin-bottom: 24px;
+		 	}
+		 	p{
+				font-weight: 700;
+		 	}
+
+		 	.item-wrap{
+				display: flex;
+				margin-top: 72px;
+		 		.item{
+		 			flex: 1;
+		 			padding: 32px 0 64px;
+		 			background-color: #fff;
+		 			box-shadow: 0 0 16px 2px #c5c5c5;
+
+		 			&:nth-child(2){
+		 				margin: -8px 0;
+						position: relative;
+						z-index: 1;
+		 			}
+					h1{
+						color: #8d188a;
+						font-size: 26px;
+					}
+
+					img{
+						width: 80px;
+					}
+		 		}
+		 	}
+		 }
+	}
+
+
+	.form_wrap{
+		padding: 124px 0;
+		.inner-wrap{
+			display: flex;
+			>div{
+				flex: 1;
+					&:last-child{
+						margin-left: 56px;
+					}
+				.input_r{
+					@include border-r(4px);
+					border: 1px solid #ccc;
+					padding: 56px 20px 32px;
+
+					&.login__form{
+						.input-wrap{
+							&:last-child{
+								margin-bottom: 24px;
+							}
+						}
+
+						>label{
+							color: #7a7a7a;
+							margin-left: 12px;
+							font-weight: 400;
+							cursor: pointer;
+						}
+
+						.lost_password{
+							margin-top: 8px;
+							margin-bottom: 16px;
+						}
+					}
+				}
+
+				h1{
+					text-transform: uppercase;
+					font-weight: 600;
+					font-size: 20px;
+					text-align: center;
+				}
+
+				p{
+					color: #7a7a7a;
+					font-weight: 400;
+					margin-bottom: 24px;
+					a{
+						color: #1e73be;
+					}
+				}
+
+				.btn{
+					padding: .618em 1em;
+					font-weight: 700;
+					@include border-r(3px);
+					color: #515151;
+					border: 0;
+					background-color: #ebe9eb;
+
+					&:hover{
+						background-color: #dfdcde;
+					}
+				}
+
+				.input-wrap{
+					@include border-r(0px);
+					margin-bottom: 40px;
+					background: #fafafa;
+					border: 1px solid #ccc;
+
+					&:last-child{
+						margin: 0;
+					}
+					
+					input{
+						padding: 10px 15px;
+						color: #666;
+						font-size: 20px;
+					}
+					label{
+						 color: #7a7a7a;
+						 font-size: 16px;
+						 top: -28px;
+					}
+				}
+			}
+		}
+	}
+
+}
