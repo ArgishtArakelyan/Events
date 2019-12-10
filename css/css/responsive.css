@@ -218,7 +218,10 @@
     text-align: center; }
 
   .welcome_wrap h1 {
-    font-size: 40px; } }
+    font-size: 40px; }
+
+  .faq_wrap .inner-wrap {
+    display: block; } }
 @media screen and (max-width: 600px) {
   .organizer-page-wrap section.services_block .inner-wrap .item-wrap .item {
     float: none;
