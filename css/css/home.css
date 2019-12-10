@@ -154,6 +154,8 @@
   padding: 130px 0px;
   position: relative; }
   .faq_wrap .inner-wrap {
+    display: flex;
+    align-items: center;
     z-index: 1; }
   .faq_wrap .overlay {
     background-color: transparent;
@@ -186,7 +188,7 @@
         border-bottom: 3px solid #fff; }
       .faq_wrap .col-75 ul li.open:last-child .description {
         border: 0; }
-      .faq_wrap .col-75 ul li.open .description {
+      .faq_wrap .col-75 ul li.nth1 .description {
         display: block; }
       .faq_wrap .col-75 ul li:last-child .title {
         border: 0; }

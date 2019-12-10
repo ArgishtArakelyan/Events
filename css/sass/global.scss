@@ -521,6 +521,11 @@ a {
     i {
       margin-left: 8px;
     }
+
+    &:hover{
+        background-color: #fff !important;
+    color: #352245;
+    }
   }
 
   .m-lines {

@@ -244,6 +244,8 @@ $yellowColor: #ffde59;
         position: relative;
 
         .inner-wrap {
+			display: flex;
+			align-items: center;
             z-index: 1;
         }
 
@@ -305,9 +307,12 @@ $yellowColor: #ffde59;
                             }
                         }
 
-                        .description {
-                            display: block;
 
+                    }
+
+                    &.nth1{
+                    	.description {
+                            display: block;
                         }
                     }
 
@@ -345,6 +350,8 @@ $yellowColor: #ffde59;
                         letter-spacing: 0.5px;
                         padding: 25px;
                         border-bottom: 3px solid #fff;
+
+
                         display: none;
 
                         p {

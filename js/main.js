@@ -56,9 +56,12 @@ $(document).on("click",".m-lines",function() {
 
  
 $('.faq_list li .title').on('click', function(e) {
-    $('.faq_list li .title').not(this).parent().removeClass('open');
+    $('.faq_list li .title').not(this).parent().removeClass('open ,nth1');
     $(this).parent().toggleClass('open');
 
+    $('.faq_list li .title').not(this).parent().find('.description').slideUp();
+ 
+    $(this).parent().find('.description').slideToggle();
  
     e.stopPropagation(); 
 });
