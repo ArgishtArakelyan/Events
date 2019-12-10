@@ -211,7 +211,14 @@
     width: 100%;
     max-width: 340px;
     float: none;
-    margin: 40px auto 0 !important; } }
+    margin: 40px auto 0 !important; }
+
+  .welcome_wrap {
+    padding: 160px 0 160px;
+    text-align: center; }
+
+  .welcome_wrap h1 {
+    font-size: 40px; } }
 @media screen and (max-width: 600px) {
   .organizer-page-wrap section.services_block .inner-wrap .item-wrap .item {
     float: none;
