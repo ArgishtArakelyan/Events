@@ -318,6 +318,9 @@
         -webkit-transform: translateX(-50%);
         transform: translateX(-50%);
         padding: 12px 48px; }
+        .organizer-page-wrap section.price_list .inner-wrap .item-wrap .item .btn:hover {
+          background-color: #fff !important;
+          color: #352245; }
 .organizer-page-wrap section.help_wrap {
   padding: 172px 0;
   background-size: cover;
